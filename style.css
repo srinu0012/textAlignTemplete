@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 30px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width: 90vw;
+    height: 90vh;
+}
+.container{
+    margin: 30px 20px 20px 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+img{
+    width: 100%;
+}
+.container h2,p{
+    text-align: center;
+}
